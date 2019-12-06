@@ -1,0 +1,15 @@
+from funcoes import *
+
+terminal_para_aviao('piloto', 'oficial1')
+aviao_para_terminal('piloto')
+terminal_para_aviao('piloto', 'chefe de servico')
+aviao_para_terminal('chefe de servico')
+terminal_para_aviao('chefe de servico', 'comissaria1')
+aviao_para_terminal('chefe de servico')
+terminal_para_aviao('policial', 'presidiario')
+aviao_para_terminal('piloto')
+terminal_para_aviao('piloto', 'chefe de servico')
+aviao_para_terminal('chefe de servico')
+terminal_para_aviao('chefe de servico', 'comissaria2')
+aviao_para_terminal('piloto')
+terminal_para_aviao('piloto', 'oficial2')
